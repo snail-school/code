@@ -12,7 +12,6 @@ int main()
 
 int snails(){
 	int key;
-	system("COLOR F0");
 	printf("주인공이 전학오고 4마리의 달팽이가 주인공에게 다가오는데...\n");
 	Sleep(1000); 
 	printf(" ▶ next \n");
@@ -20,9 +19,9 @@ int snails(){
 	key=getch();
 	if(key==13){
 		system("cls");
-		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 1+15*16); // 1=BLUE (글자), 15=WHITE (배경) 
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 11); 
 		printf("^@\n");
-		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 0+15*16); // 0=BLACK (글자) 
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 15); 
 		printf(" 이삼돌 \n");
 		printf(" 특기 : 지력 \n"); 
 		Sleep(2000);
@@ -38,9 +37,9 @@ int snails(){
 	key=getch();
 	if(key==13){
 		system("cls");
-		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 2+15*16); // 2=GREEN 
-		printf("^@\n");
-		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 0+15*16);
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 10);
+		printf("\"@\n");
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 15);
 		printf(" 김 수한무  \n");
 		printf(" 특기 : 재력 \n");
 		Sleep(2000);
@@ -56,9 +55,9 @@ int snails(){
 	key=getch();
 	if(key==13){
 		system("cls");
-		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 6+15*16); // 6=YELLOW
-		printf("^@\n");
-		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 0+15*16);
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 14); 
+		printf("U@\n");
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 15);
 		printf(" 기여니 \n");
 		printf(" 특기 : 운 \n");
 		Sleep(2000);
@@ -73,9 +72,9 @@ int snails(){
 	key=getch();
 	if(key==13){
 		system("cls");
-		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 4+15*16); // 4=RED
-		printf("^@\n");
-		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 0+15*16);
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 12); 
+		printf("!@\n");
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), 15);
 		printf(" 장비주 \n");
 		printf(" 특기 : 체력 \n");
 		Sleep(2000);
