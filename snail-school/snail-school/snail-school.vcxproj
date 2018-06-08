@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{DCA9256D-925E-4D6D-A904-21192142F221}</ProjectGuid>
+    <ProjectGuid>{6396B3F1-D559-4B11-A8CD-0DADF937FBAE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>snailschool</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
@@ -147,9 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="myStat.h" />
+    <ClInclude Include="statusActs.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="statusActs.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="snail-school.c" />
